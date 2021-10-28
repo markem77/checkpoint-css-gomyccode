@@ -1,0 +1,157 @@
+/* GENERALITEE */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:arial, sans-serif;
+    font-weight:15px;
+}
+
+h1{
+    font-family: 'crete+round', serif;
+    font-size:30px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+ul{
+    list-style-type:none;
+}
+
+
+
+
+section{
+    height:450px;
+}
+/* HEADER */
+
+header{
+    height:70px;
+}
+
+header h1{
+    float:left;
+    margin-top:22px;
+    color:#68D96B;
+    padding-left:130px;
+}
+
+header nav{
+    float:right;
+    margin-top:32px;
+    font-size:18px;
+    padding-right:130px;
+}
+
+header nav ul li{
+    display:inline-block;
+}
+
+header nav ul li a{
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-right:35px;
+    color:#68D96B;
+    text-decoration:none;
+}
+
+header nav ul li a:hover{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#444;
+}
+
+/* ACCUEIL */
+
+#accueil{
+    background-color:blue;
+    text-align: center;
+}
+
+#accueil h1{
+    margin-top:20px;
+    padding-top:36px;
+    color:brown;
+}
+
+#accueil h2{
+    padding-top:36px;
+    color:#fff;
+    font-size:20px;
+}
+
+#accueil p img{
+    padding-top:36px;
+    width:140px;
+    height:140px;
+    margin:3px;
+}
+
+/* PROJET */
+
+#projet{
+    background-color:dimgray;
+    text-align:center;
+    height:460px;
+}
+
+#projet h2{
+    padding-top:46px;
+    color:darkred;
+}
+
+#projet #rangee1 img{
+    padding-top:3px;
+    width:260px;
+    height:140px;
+    margin:3px;
+}
+
+#projet #rangee2 img{
+    padding-top:3px;
+    width:260px;
+    height:140px;
+    margin:3px;
+}
+
+/* contact */
+#contact{
+    background-color:gold;
+    text-align:center;
+}
+
+#contact h2{
+    padding-top:46px;
+    color:darkred;
+}
+
+#contact p img{
+    padding-top:3px;
+    width:220px;
+    height:120px;
+    margin:3px;
+}
+
+#contact .block h2{
+    padding-top:2px;
+    color:black;
+}
+
+#contact .block{
+    padding-bottom:70px
+}
+
+#contact .block .formulaire{
+    display: inline-block;
+    padding-right: 250px;
+}
+
+#contact .block .video1{
+    display:inline-block;
+    padding-left:250px;
+}
